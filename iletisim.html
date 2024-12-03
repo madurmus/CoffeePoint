@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İletişim Sayfası</title>
+
+    <!-- ! Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ! Fontawesome CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ! External CSS CDN -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iletisim-sayfasi">
+      <header>
+        <a href="index.html">
+            <img src="img/logo.jpg" alt="">
+        </a>
+        <nav>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                &#9776
+            </label>
+            <ul>
+                <li>
+                    <a href="index.html">Anasayfa</a>
+                </li>
+                <li>
+                    <a href="hakkimizda.html">Hakkımızda</a>
+                </li>
+                <li>
+                    <a href="menu.html">Menü</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="iletisim.html">İletişim</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+      <!-- ! Whatsapp İconu -->
+      <a href="#">
+        <div class="wp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </a>
+
+      <section class="iletisim">
+        <h3>İLETİŞİM</h3>
+        <div class="iletisim-wrapper">
+          <div class="iletisim-left">
+            <p class="mesaj">Bize mesaj yazın.</p>
+            <input type="text" placeholder="İsim-Soyisim" />
+            <input type="tel" placeholder="Telefon Numarası" />
+            <input type="email" placeholder="E-Posta Adresi" />
+            <textarea
+              placeholder="Mesajınızı buraya yazınız..."
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button>Gönder</button>
+          </div>
+          <div class="iletisim-right">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.728578411475!2d26.4023098!3d40.1483293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b1a9fac2fe5193%3A0xced692e00f4ad97f!2s%C3%87anakkale%20Happy%20Point%20Cafe!5e0!3m2!1str!2str!4v1732629394134!5m2!1str!2str"
+              width="100%"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- ! CoffePoint Bilgi Alanı -->
+      <section class="calisma-bilgileri">
+        <div class="calisma-bilgileri-wrapper">
+          <div class="calisma-bilgi">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Bize Ulaşın</h3>
+            <p>+(90) 517 117 17 17</p>
+            <p>info#coffeepoint.com</p>
+          </div>
+          <div class="calisma-bilgi">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Bizi Ziyaret Edin</h3>
+            <p>
+              Mavişehir, 2040. Sk. No:104, 35540 <br />
+              Karşıyaka/İzmir
+            </p>
+          </div>
+          <div class="calisma-bilgi">
+            <i class="fa-solid fa-clock"></i>
+            <h3>Çalışma Saatlerimiz</h3>
+            <p>
+              Haftaiçi her gün <br />
+              Saat 10:00 - 00:00
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <section class="reklam-banner"></section>
+
+      <!-- ! Footer -->
+      <footer>
+        <div class="footer-left">
+          <h3>KURUMSAL</h3>
+          <ul>
+            <li>Anasayfa</li>
+            <li>Hakkımızda</li>
+            <li>Menü</li>
+            <li>Blog</li>
+            <li>İletişim</li>
+            <li>Ekibimiz</li>
+            <li>Misyonumuz</li>
+            <li>Vizyonumuz</li>
+          </ul>
+        </div>
+        <div class="footer-center">
+          <img width="70px" src="img/logo.jpg" alt="" />
+          <h3>
+            YENİLİKLERDEN <br />
+            HABERDAR OLUN
+          </h3>
+          <input type="text" placeholder="E-mail giriniz..." />
+          <div class="social-media-wrapper">
+            <div class="social-media facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="social-media instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="social-media youtube">
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <h3>İLETİŞİM</h3>
+          <address>
+            Mavişehir, 2040. Sk. No:104, 35540 <br />
+            Karşıyaka/İzmir
+          </address>
+          <address>
+            Sakarya, Kıbrıs Şehitleri Cd. No:46 <br />
+            17200 Biga/Çanakkale
+          </address>
+          <p>+(90) 517 117 17 17</p>
+          <p>+(90) 517 117 17 17</p>
+          <p>coffeepoint@gmail.com</p>
+          <p>info@coffeepoint.com</p>
+        </div>
+      </footer>
+      <div class="designed-by">Created by Kodkoloni | All Rigths Reserved</div>
+    </div>
+  </body>
+</html>
